@@ -1,0 +1,17 @@
+body {
+	background-image:
+url('/home/recepcion/snap/Newfolder/pexels-kaique-rocha-447329.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.header {
+	display:flex;
+	flex-wrap: wrap;
+	align-text: center;
+	font-size: 60px;
+	color: #F9FAF8;
+	font-weight: bold;
+	width: 600px;
+}

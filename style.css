@@ -1,18 +1,5 @@
 body {
-	background-image:
-url('/home/f/webdev/Odin/pexels-kaique-rocha-447329.jpg');
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
 }
 
 .header {
-	display:flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: center;
-	font-size: 40px;
-	font-weight: bold;
-	font-color: white;
-	background: rgba(0, 0, 0, 0.01);
 }

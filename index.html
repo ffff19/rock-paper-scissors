@@ -3,14 +3,32 @@
   <head>
     <meta charset="utf-8">
 		<title>Rock Paper Scissors</title>
+		<script defer src="rps.js"></script>
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<div class="header">
-			Let's play Rock, Paper, Scissors. The best of 5 wins!"
+			<img src="header.jpg"> <!--https://www.freepik.com/vectors/human-hand Human hand vector created by upklyak - www.freepik.com -->
 		</div>
-		<script type="text/javascript"
-src="/home/f/webdev/Odin/repos/rock-paper-scissors/rps.js">
-		</script>
+		<div class="container">
+			<ul id="player">
+				<li>Player: </li>
+			</ul>
+			<div class="buttons">
+				<!-- https://www.freepik.com/vectors/clip-art Clip art vector created by DrawingMyDiary - www.freepik.com -->
+				<button class="rock"></button>
+				<button class="paper"></button>
+				<button class="scissors"></button>
+			</div>
+			<ul id="computer">
+				<li>Computer: </li>
+			</ul>
+		</div>
+		<ul id="roundMessage">
+		</ul>
+		<ul id="finalResultMessage">
+		</ul>
+		<ul id="playAgain">
+		</ul>
 	</body>
 </html>

@@ -1,5 +1,46 @@
-body {
+body *{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
 }
 
 .header {
+	height: 300px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.scissors {
+	background: url('scissors.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 180px;
+	width: 150px;
+	border: none;
+}
+
+.rock {
+	background: url('rock.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 180px;
+	width: 150px;
+	border: none;
+}
+
+.paper {
+	background: url('paper.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 180px;
+	width: 170px;
+	border: none;
+}
+
+.container {
+	font: bold;
+	font-size: 22px;
 }
